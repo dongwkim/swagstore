@@ -1,0 +1,11 @@
+{
+    "name": "twilio",
+    "type": "twilio",
+    "config": {
+        "sid": "AC77ff111f899eac63eebaba590c45785d"
+    },
+    "secret_config": {
+        "auth_token": "twillio_token"
+    },
+    "version": 1
+}

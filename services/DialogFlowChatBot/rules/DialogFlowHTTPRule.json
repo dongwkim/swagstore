@@ -1,0 +1,7 @@
+{
+    "name": "DialogFlowHTTPRule",
+    "actions": [
+        "post",
+        "get"
+    ]
+}

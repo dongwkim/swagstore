@@ -1,0 +1,42 @@
+{
+    "name": "oauth2-google",
+    "type": "oauth2-google",
+    "config": {
+        "clientId": "453113466098-0dhj9edsmlriopoti2i42m6nq4e3inoh.apps.googleusercontent.com"
+    },
+    "secret_config": {
+        "clientSecret": "ecommerce"
+    },
+    "disabled": false,
+    "metadata_fields": [
+        {
+            "required": false,
+            "name": "first_name"
+        },
+        {
+            "required": false,
+            "name": "last_name"
+        },
+        {
+            "required": false,
+            "name": "name"
+        },
+        {
+            "required": false,
+            "name": "email"
+        },
+        {
+            "required": false,
+            "name": "gender"
+        },
+        {
+            "required": false,
+            "name": "birthday"
+        }
+    ],
+    "redirect_uris": [
+        "http://localhost:3000/login",
+        "https://swagstore-kdsnu.mongodbstitch.com/login",
+        "https://swagstore-dot-swagstore.appspot.com/login"
+    ]
+}
